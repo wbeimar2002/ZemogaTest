@@ -11,16 +11,17 @@ Prerequisites
 
 
 
-- Total Time: 12 Hours
+Total Time: 12 Hours
 
-- Sample Credencials are in the seeding information on ZemogaTestContext.cs File Inside to ZemogaTest.Repositories project 
--Writer user
+Sample Credencials are in the seeding information on ZemogaTestContext.cs File Inside to ZemogaTest.Repositories project 
+Writer user
 - walex 
 - 123
 
--Editor User
--naty
--123
+Editor User
+- naty 
+- 123
+
 
 To Execute the application is necessary to update the Connection String in Startup and ZemogaTestContext Files inside  ZemogaTest.Repositories project 
 
