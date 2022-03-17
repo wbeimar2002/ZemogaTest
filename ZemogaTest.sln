@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZemogaTest.WebApp", "ZemogaTest.WebApp\ZemogaTest.WebApp.csproj", "{65E542D3-C30F-43C8-B971-8F16846AC790}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZemogaTest.Api", "ZemogaTest.Api\ZemogaTest.Api.csproj", "{F4DE8DBD-DCA5-48E6-A718-BACD2F6EFF88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZemogaTest.Utilities", "ZemogaTest.Utilities\ZemogaTest.Utilities.csproj", "{611A111F-91BD-45C3-9ED2-6F55B3202ECE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZemogaTest.Repositories", "ZemogaTest.Repositories\ZemogaTest.Repositories.csproj", "{B1EC8F53-9230-4016-A5B1-57DB3DFAD5AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZemogaTest.Services", "ZemogaTest.Services\ZemogaTest.Services.csproj", "{E87E954D-5942-4CBF-B158-17AA8F03D45A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZemogaTest.UniTests", "ZemogaTest.UniTests\ZemogaTest.UniTests.csproj", "{37885E22-1463-43EE-9193-566947316BA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65E542D3-C30F-43C8-B971-8F16846AC790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E542D3-C30F-43C8-B971-8F16846AC790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E542D3-C30F-43C8-B971-8F16846AC790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E542D3-C30F-43C8-B971-8F16846AC790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DE8DBD-DCA5-48E6-A718-BACD2F6EFF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DE8DBD-DCA5-48E6-A718-BACD2F6EFF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DE8DBD-DCA5-48E6-A718-BACD2F6EFF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DE8DBD-DCA5-48E6-A718-BACD2F6EFF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611A111F-91BD-45C3-9ED2-6F55B3202ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611A111F-91BD-45C3-9ED2-6F55B3202ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611A111F-91BD-45C3-9ED2-6F55B3202ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611A111F-91BD-45C3-9ED2-6F55B3202ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EC8F53-9230-4016-A5B1-57DB3DFAD5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EC8F53-9230-4016-A5B1-57DB3DFAD5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EC8F53-9230-4016-A5B1-57DB3DFAD5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EC8F53-9230-4016-A5B1-57DB3DFAD5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E87E954D-5942-4CBF-B158-17AA8F03D45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87E954D-5942-4CBF-B158-17AA8F03D45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87E954D-5942-4CBF-B158-17AA8F03D45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E87E954D-5942-4CBF-B158-17AA8F03D45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37885E22-1463-43EE-9193-566947316BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37885E22-1463-43EE-9193-566947316BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37885E22-1463-43EE-9193-566947316BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37885E22-1463-43EE-9193-566947316BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4747E90-0837-495F-BDA8-7238F127D217}
+	EndGlobalSection
+EndGlobal

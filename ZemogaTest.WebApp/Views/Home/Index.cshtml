@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<body>
+    <div id="login">
+        <h3 class="text-center text-white pt-5">Login form</h3>
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">Login</h3>
+                            <div class="form-group">
+                                <label for="username" class="text-info">Username:</label><br>
+                                <input type="text" name="username" id="username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-info">Password:</label><br>
+                                <input type="text" name="password" id="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="button" id="btnLogin" class="btn btn-info btn-md" value="Login">
+                                <input type="button" id="btnAnonimous" class="btn btn-info btn-md" value="Anonimous Enter">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="DivLoggedUser" hidden="hidden">
+        <div id="DivWriterUser" hidden="hidden">
+            <h4 class="text-left text-black-50 pt-5">Create Blog</h4>
+            <form>
+                <div class="row" id="CommentDiv">
+                    <div class="col">
+                        <input type="text" class="form-control" id="blogIdnew" readonly="readonly">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" id="blogTitle" placeholder="Enter Blog Title">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" id="blogContent" placeholder="Enter Blog Content">
+                    </div>
+                    <div class="col">
+                        <input type="button" id="btnSave" class="btn btn-info btn-md"  value="Save">
+                    </div>
+                    <div class="col">
+                        <input type="button" id="btnNew" class="btn btn-info btn-md" value="New">
+                    </div>
+                </div>
+            </form>
+            <div id="GridWriter"></div>
+        </div>
+        <br />
+        <br />
+        <div id="DivEditorUser" hidden="hidden">
+            <h4 class="text-left text-black-50 pt-5">Pending Post</h4>
+            <div id="GridEditor"></div>
+        </div>
+    </div>
+    <div id="DivAnonimous" hidden="hidden">
+        <div id="GridAnonimous"></div>
+        <br />
+        <form>
+            <div class="row" id="CommentDiv">
+                <div>
+                    <input type="text" class="form-control" id="blogId" readonly="readonly">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" id="blogComment" placeholder="Enter Blog Comment">
+                </div>
+                <div class="col">
+                    <input type="button" id="btnSubmitComment" class="btn btn-info btn-md" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+    <input type="hidden" id="AuthorId" />
+</body>
