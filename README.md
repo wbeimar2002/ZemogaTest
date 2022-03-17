@@ -18,7 +18,7 @@ Prerequisites
 - walex 
 - 123
 
-Edito User
+-Editor User
 -naty
 -123
 
